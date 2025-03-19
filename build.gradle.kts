@@ -15,6 +15,27 @@ plugins {
 }
 
 subprojects {
+    // Apply the Kotlin JVM plugin to subprojects that need it
+    pluginManager.withPlugin("org.jetbrains.kotlin.jvm") {
+        configure<org.jetbrains.kotlin.gradle.dsl.KotlinProjectExtension> {
+            jvmToolchain(21) // Set the desired JVM version here (e.g., 21)
+        }
+    }
+    // Apply the Kotlin Android plugin to subprojects that need it
+    pluginManager.withPlugin("org.jetbrains.kotlin.android") {
+        configure<org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension> {
+            jvmToolchain(21)
+        }
+    }
+    // Apply the Java plugin to subprojects that need it
+    pluginManager.withPlugin("java") {
+        tasks.withType<JavaCompile>().configureEach {
+            sourceCompatibility = "21"
+            targetCompatibility = "21"
+        }
+    }
+}
+subprojects {
     apply(plugin = "org.jlleitschuh.gradle.ktlint")
     apply(plugin = "com.mikepenz.aboutlibraries.plugin")
 
