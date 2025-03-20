@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.7.3" type="baseline" client="gradle" dependencies="false" name="AGP (8.7.3)" variant="all" version="8.7.3">
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;about_description&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;about_description&quot;>Version, credits&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;about_name&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;ta&quot; (Tamil)"
+        errorLine1="    &lt;string name=&quot;about_name&quot;>About&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;appearance_description&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;ta&quot; (Tamil)"
+        errorLine1="    &lt;string name=&quot;appearance_description&quot;>Adjust the app to your liking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;appearance_name&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;ta&quot; (Tamil)"
+        errorLine1="    &lt;string name=&quot;appearance_name&quot;>Appearance&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="7"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;ascending&quot; is not translated in &quot;ca&quot; (Catalan)"
+        errorLine1="    &lt;string name=&quot;ascending&quot;>Ascending&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="8"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;cancel&quot; is not translated in &quot;ta&quot; (Tamil)"
+        errorLine1="    &lt;string name=&quot;cancel&quot;>Cancel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="9"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;descending&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;descending&quot;>Descending&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="10"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;disable&quot; is not translated in &quot;ta&quot; (Tamil) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;disable&quot;>Disable&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="11"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;done&quot; is not translated in &quot;ta&quot; (Tamil) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;done&quot;>Done&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;double_tap&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;double_tap&quot;>Double tap gesture&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="13"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;double_tap_description&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;double_tap_description&quot;>Select double tap gesture action&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="14"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;error_playing_video&quot; is not translated in &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;error_playing_video&quot;>Error: Can\&apos;t play video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="15"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;fast_seek&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;fast_seek&quot;>Fast seeking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="16"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;fast_seek_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;fast_seek_description&quot;>Seek to nearest key frame instead of exact one.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;grant_permission&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;grant_permission&quot;>Grant Permission&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;group_videos&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;group_videos&quot;>Group videos by folder&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="19"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;duration&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;duration&quot;>Duration&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="20"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;location&quot; is not translated in &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;location&quot;>Location&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="21"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;menu&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;menu&quot;>Menu&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="22"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;navigate_up&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;navigate_up&quot;>Navigate up&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="23"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;no_videos_found&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;no_videos_found&quot;>No videos found&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="24"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;open_settings&quot; is not translated in &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;open_settings&quot;>Open Settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="25"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;permission_info&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;permission_info&quot;>The Next Player app needs \&quot;%1$s\&quot; permission to access and play media. Without it, media access and playback won\&apos;t work. To use the app fully, grant the permission.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="26"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;permission_not_granted&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;permission_not_granted&quot;>Permission Not Granted&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="27"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;permission_request&quot; is not translated in &quot;ca&quot; (Catalan) or &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;permission_request&quot;>Permission Request&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="28"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;permission_settings&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;permission_settings&quot;>The Next Player app needs \&quot;%1$s\&quot; permission to access and play media. Without it, media access and playback won\&apos;t work. To use the app fully, grant the permission from settings since it was permanently denied.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="29"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_controls_exit&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_controls_exit&quot;>Navigate up&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_controls_next&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_controls_next&quot;>Player next&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="31"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_controls_play_pause&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_controls_play_pause&quot;>Player play pause&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="32"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_controls_previous&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_controls_previous&quot;>Player previous&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="33"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_controls_progress&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_controls_progress&quot;>Player progress bar&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="34"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_description&quot;>Player appearance, playback controls&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="35"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_name&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_name&quot;>Player&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="36"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;quick_settings&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;quick_settings&quot;>Quick Settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="37"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;autoplay_settings&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;autoplay_settings&quot;>Autoplay&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;autoplay_settings_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;autoplay_settings_description&quot;>Automatically play the next video in the current folder&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="39"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;pip_settings&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;pip_settings&quot;>Picture in Picture Mode&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="40"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;pip_settings_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;pip_settings_description&quot;>Automatically switch to miniature player when tapping Home Button&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="41"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;remember_brightness_level&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;remember_brightness_level&quot;>Remember brightness level&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="42"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;remember_brightness_level_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;remember_brightness_level_description&quot;>Remember brightness level between playback sessions&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="43"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;remember_selections&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;remember_selections&quot;>Remember selections&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="44"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;remember_selections_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;remember_selections_description&quot;>Remember selections for each file like audio track, subtitle track, etc&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="45"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;resume&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;resume&quot;>Resume&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;resume_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;resume_description&quot;>Select whether to resume played videos from the point where you stopped&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="47"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;seek_gesture&quot; is not translated in &quot;bn&quot; (Bangla), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;seek_gesture&quot;>Seek gesture&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="48"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;seek_gesture_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;seek_gesture_description&quot;>Swipe horizontally to seek forwards or backwards&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="49"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;select_audio_track&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;select_audio_track&quot;>Select audio track&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="50"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;select_subtitle_track&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;select_subtitle_track&quot;>Select subtitle track&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="51"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;settings&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;settings&quot;>Settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="52"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;size&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;size&quot;>Size&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="53"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;sort&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;sort&quot;>Sort&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="54"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;swipe_gesture&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;swipe_gesture&quot;>Swipe gesture&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="55"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;swipe_gesture_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;swipe_gesture_description&quot;>Swipe vertically to adjust the brightness and volume&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="56"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;title&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;title&quot;>Title&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="57"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;title_activity_player&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;title_activity_player&quot;>Next Player Activity&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="58"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;unknown_error&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;unknown_error&quot;>An unknown error has occurred&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="59"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;playback&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;playback&quot;>Playback&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="60"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;interface_name&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;interface_name&quot;>Interface&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="61"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;a_z&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;a_z&quot;>A-Z&lt;/string>"
+        errorLine2="            ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="62"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;z_a&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;z_a&quot;>Z-A&lt;/string>"
+        errorLine2="            ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="63"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;shortest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;shortest&quot;>Shortest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="64"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;longest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;longest&quot;>Longest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="65"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;smallest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;smallest&quot;>Smallest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="66"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;largest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;largest&quot;>Largest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="67"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;dark_theme&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;dark_theme&quot;>Dark theme&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="68"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video_zoom&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video_zoom&quot;>Video zoom&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="69"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;dynamic_theme&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;dynamic_theme&quot;>Dynamic color theme&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="70"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;dynamic_theme_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;dynamic_theme_description&quot;>Apply colors from system wallpaper to the application theme&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="71"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;controls_lock&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;controls_lock&quot;>Lock controls&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="72"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;controls_unlock&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;controls_unlock&quot;>Unlock controls&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="73"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;select_playback_speed&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;select_playback_speed&quot;>Select playback speed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="74"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;audio&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;audio&quot;>Audio&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="75"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;preferred_audio_lang&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;preferred_audio_lang&quot;>Preferred audio language&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="76"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;preferred_audio_lang_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;preferred_audio_lang_description&quot;>Language of the audio track you want to use by default&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="77"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle&quot;>Subtitle&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="78"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;preferred_subtitle_lang&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;preferred_subtitle_lang&quot;>Preferred subtitle language&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="79"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;preferred_subtitle_lang_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;preferred_subtitle_lang_description&quot;>Language of the subtitle track you want to use by default&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="80"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;system_default&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;system_default&quot;>System Default&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="81"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;off&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;off&quot;>Off&lt;/string>"
+        errorLine2="            ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="82"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;on&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;on&quot;>On&lt;/string>"
+        errorLine2="            ~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="83"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;play_pause&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;play_pause&quot;>Play/Pause&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="84"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;ff_rewind&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;ff_rewind&quot;>Fast forward/Rewind&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;play_pause_ff_rewind&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;play_pause_ff_rewind&quot;>Play/Pause and Fast forward/Rewind&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="86"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;none&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;none&quot;>None&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="87"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;auto&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;auto&quot;>Auto&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="88"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;enable&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;enable&quot;>Enable&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="89"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;yes&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;yes&quot;>Yes&lt;/string>"
+        errorLine2="            ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="90"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;no&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;no&quot;>No&lt;/string>"
+        errorLine2="            ~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="91"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;scan&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;scan&quot;>Scan&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="92"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;media_library&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;media_library&quot;>Media library&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="93"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;force_rescan_storage&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;force_rescan_storage&quot;>Force rescan storage&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="94"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;force_rescan_storage_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;force_rescan_storage_desc&quot;>Caution: Initiating a full storage rescan may cause increased resource usage on your device&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="95"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;media_library_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;media_library_description&quot;>Scan and manage media library&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="96"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;scanning_storage&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;scanning_storage&quot;>Scanning storage…&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="97"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;manage_folders&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;manage_folders&quot;>Manage folders&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="98"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;manage_folders_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;manage_folders_desc&quot;>Select folders to be excluded in the media library&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="99"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video&quot;>Video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="100"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;videos&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;videos&quot;>Videos&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="101"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;screen_rotation&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;screen_rotation&quot;>Screen Rotation&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="102"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;player_screen_orientation&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;player_screen_orientation&quot;>Player screen orientation&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="103"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;automatic&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;automatic&quot;>Automatic (sensor)&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="104"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;landscape&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;landscape&quot;>Landscape&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="105"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;landscape_reverse&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;landscape_reverse&quot;>Landscape reverse&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="106"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;landscape_auto&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;landscape_auto&quot;>Landscape (sensor)&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="107"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;portrait&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;portrait&quot;>Portrait&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="108"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video_orientation&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video_orientation&quot;>Video Orientation&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="109"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;newest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;newest&quot;>Newest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="110"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;oldest&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;oldest&quot;>Oldest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="111"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;date&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;date&quot;>Date&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="112"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;default_playback_speed&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;default_playback_speed&quot;>Default playback speed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="113"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;enter_a_network_url&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;enter_a_network_url&quot;>Enter a network URL:&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="114"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;network_stream&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;network_stream&quot;>Network Stream&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="116"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;play_file&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;play_file&quot;>Open video file to play&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="117"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;play_url&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;play_url&quot;>Enter video url to play&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="118"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;default_name&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;default_name&quot;>Default&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="119"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;monospace&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;monospace&quot;>Monospace&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="120"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;sans_serif&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;sans_serif&quot;>Sans Serif&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="121"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;serif&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;serif&quot;>Serif&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="122"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_font&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_font&quot;>Subtitle font&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="123"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_text_bold&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_text_bold&quot;>Bold subtitle text&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="124"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_text_bold_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_text_bold_desc&quot;>Use bold text for subtitle&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="125"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_text_size&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_text_size&quot;>Subtitle text size&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="126"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_desc&quot;>Subtitle appearance, playback options&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="127"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_background&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_background&quot;>Subtitle background&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="128"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_background_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_background_desc&quot;>Enable background to subtitle text&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="129"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;decoder&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;decoder&quot;>Decoder&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="130"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;decoder_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;decoder_desc&quot;>Decoder priority, playback decoder options&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="131"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video_software_decoders&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video_software_decoders&quot;>Software video decoders&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="132"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video_software_decoders_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video_software_decoders_desc&quot;>Use application software video decoders (experimental)&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="133"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;decoder_priority&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;decoder_priority&quot;>Decoder priority&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="134"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;prefer_device_decoders&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;prefer_device_decoders&quot;>Prefer device decoders&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="135"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;prefer_app_decoders&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;prefer_app_decoders&quot;>Prefer app decoders&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="136"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;device_decoders_only&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;device_decoders_only&quot;>Device decoders only&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="137"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;embedded_styles&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;embedded_styles&quot;>Embedded styles&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="138"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;embedded_styles_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;embedded_styles_desc&quot;>Apply the embedded styles that are present in subtitle files, such as ASS and so on&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="139"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;controller_timeout&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;controller_timeout&quot;>Controller timeout&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="140"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;seek_increment&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;seek_increment&quot;>Seek increment&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="141"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;seconds&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;seconds&quot;>%1$s seconds&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="142"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;share&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;share&quot;>Share&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="143"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;delete&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;delete&quot;>Delete&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="144"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;delete_file&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;delete_file&quot;>The following file will be deleted permanently&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="145"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_text_encoding&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_text_encoding&quot;>Subtitle text encoding&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="146"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;delete_folder&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;delete_folder&quot;>All video files in the following folder will be deleted permanently.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="147"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;fast_playback_speed&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;fast_playback_speed&quot;>%.1fx speed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="148"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;long_press_gesture&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;long_press_gesture&quot;>Long press gesture&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="149"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;long_press_gesture_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;long_press_gesture_desc&quot;>Long press to play at %.1fx speed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="150"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;best_fit&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;best_fit&quot;>Best fit&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="151"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;stretch&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;stretch&quot;>Stretch&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="152"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;crop&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;crop&quot;>Crop&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="153"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;hundred_percent&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;hundred_percent&quot;>100%&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="154"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;zoom_gesture&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;zoom_gesture&quot;>Zoom gesture&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="155"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;zoom_gesture_description&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;zoom_gesture_description&quot;>Pinch to zoom the video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="156"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;high_contrast_dark_theme&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;high_contrast_dark_theme&quot;>High contrast dark theme&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="157"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;high_contrast_dark_theme_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;high_contrast_dark_theme_desc&quot;>Use pure black background for dark theme&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="158"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;audio_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;audio_desc&quot;>Audio playback options&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="159"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;pause_on_headset_disconnect&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;pause_on_headset_disconnect&quot;>Pause on disconnect&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="160"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;pause_on_headset_disconnect_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;pause_on_headset_disconnect_desc&quot;>Pause playback when headset disconnected from the device&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="161"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;system_volume_panel&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;system_volume_panel&quot;>System volume panel&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="162"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;system_volume_panel_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;system_volume_panel_desc&quot;>Show system volume panel while adjusting volume with headset on&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="163"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;system_caption_style&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;system_caption_style&quot;>System caption style&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="164"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;system_caption_style_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;system_caption_style_desc&quot;>Click to open system captioning preferences&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="165"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;fields&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;fields&quot;>Fields&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="166"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;extension&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;extension&quot;>Extension&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="167"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;path&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;path&quot;>Path&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="168"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;resolution&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;resolution&quot;>Resolution&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="169"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;thumbnail&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;thumbnail&quot;>Thumbnail&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="170"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;require_audio_focus&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;require_audio_focus&quot;>Require audio focus&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="171"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;require_audio_focus_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;require_audio_focus_desc&quot;>Pause other players while this player is playing videos, and vice versa.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="172"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;file&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;file&quot;>File&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="173"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;format&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;format&quot;>Format&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="174"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;video_track&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;video_track&quot;>Video Track&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="175"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;audio_track&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;audio_track&quot;>Audio Track&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="176"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;subtitle_track&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;subtitle_track&quot;>Subtitle Track&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="177"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;codec&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;codec&quot;>Codec&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="178"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;sample_rate&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;sample_rate&quot;>Sample rate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="179"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;sample_format&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;sample_format&quot;>Sample format&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="180"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;bitrate&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;bitrate&quot;>Bitrate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="181"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;channels&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;channels&quot;>Channels&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="182"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;language&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;language&quot;>Language&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="183"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;frame_rate&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;frame_rate&quot;>Frame rate&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="184"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;okay&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;okay&quot;>Okay&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="185"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;properties&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;da&quot; (Danish), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;properties&quot;>Properties&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="186"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;volume_boost&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;volume_boost&quot;>Volume boost&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="187"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;volume_boost_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;volume_boost_desc&quot;>Boost audio volume up to 200%&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="188"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;open_subtitle&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;open_subtitle&quot;>Open local subtitle&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="189"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;no_subtitle_tracks_found&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;no_subtitle_tracks_found&quot;>Subtitle tracks for this video are either unavailable or not supported.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="190"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;no_audio_tracks_found&quot; is not translated in &quot;bn&quot; (Bangla), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;no_audio_tracks_found&quot;>Audio tracks for this video are either unavailable or not supported.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="191"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;rename&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;rename&quot;>Rename&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="192"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;rename_to&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;rename_to&quot;>Rename to&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="193"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;floating_play_button&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;floating_play_button&quot;>Floating play button&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="194"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;floating_play_button_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;floating_play_button_desc&quot;>Show floating button to play last played media.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="195"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;mark_last_played_media&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;mark_last_played_media&quot;>Mark last played media&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="196"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;mark_last_played_media_desc&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;mark_last_played_media_desc&quot;>Mark last played media in home and in each folder&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="197"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;open_local_video&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;open_local_video&quot;>Open local video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="198"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;open_network_stream&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;open_network_stream&quot;>Open network stream&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="199"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;exit&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;exit&quot;>Exit&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="200"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;play_next_video&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;play_next_video&quot;>Play next video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="201"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;skip_silence&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;skip_silence&quot;>Skip silence&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="202"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;folder&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;folder&quot;>Folder&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="203"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;folders&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;folders&quot;>Folders&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="204"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;tree&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;tree&quot;>Tree&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="205"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;played_progress&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;played_progress&quot;>Played progress&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="206"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;media_view_mode&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;media_view_mode&quot;>Media view mode&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="207"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;enable_pip_from_settings&quot; is not translated in &quot;hi&quot; (Hindi), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;it&quot; (Italian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;pa&quot; (Punjabi), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;enable_pip_from_settings&quot;>Picture-in-Picture is disabled. Enable it in Settings to use this feature.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="208"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;control_buttons_alignment_left&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;control_buttons_alignment_left&quot;>Left&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="209"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;control_buttons_alignment_right&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;control_buttons_alignment_right&quot;>Right&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="210"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;control_buttons_alignment&quot; is not translated in &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;control_buttons_alignment&quot;>Control buttons alignment&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="211"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;stop_player_session&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;it&quot; (Italian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;pa&quot; (Punjabi), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;stop_player_session&quot;>Stop player session&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="212"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;background_play&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;it&quot; (Italian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;pa&quot; (Punjabi), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;background_play&quot;>Background play&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="213"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;background_play_description&quot; is not translated in &quot;de&quot; (German), &quot;hi&quot; (Hindi), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;it&quot; (Italian), &quot;ta&quot; (Tamil), &quot;iw&quot; (Hebrew), &quot;pa&quot; (Punjabi), &quot;vi&quot; (Vietnamese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian), &quot;nl&quot; (Dutch)"
+        errorLine1="    &lt;string name=&quot;background_play_description&quot;>Play in background when tapped on home or screen is locked.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="214"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        message="&quot;media&quot; is a common misspelling; did you mean &quot;medier&quot;?"
+        errorLine1="    &lt;string name=&quot;permission_info&quot;>Innvilg Next-avspillerprogrammet «%1$s»tilgang for å spille media.&lt;/string>"
+        errorLine2="                                                                                               ^">
+        <location
+            file="src/main/res/values-nb-rNO/strings.xml"
+            line="24"
+            column="96"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        message="&quot;media&quot; is a common misspelling; did you mean &quot;medier&quot;?"
+        errorLine1="    &lt;string name=&quot;permission_settings&quot;>Innvilg Next-avspillerprogrammet «%1$s»tilgang (fra innstillingene siden dette ble nektet tidligere) for å spille media.&lt;/string>"
+        errorLine2="                                                                                                                                                         ^">
+        <location
+            file="src/main/res/values-nb-rNO/strings.xml"
+            line="25"
+            column="154"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (980 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="      android:pathData=&quot;M120,440Q103,440 91.5,428.5Q80,417 80,400Q80,383 91.5,371.5Q103,360 120,360L224,360L80,217Q68,205 68,188.5Q68,172 80,160Q92,148 108.5,148Q125,148 137,160L280,304L280,200Q280,183 291.5,171.5Q303,160 320,160Q337,160 348.5,171.5Q360,183 360,200L360,400Q360,417 348.5,428.5Q337,440 320,440L120,440ZM160,800Q127,800 103.5,776.5Q80,753 80,720L80,560Q80,543 91.5,531.5Q103,520 120,520Q137,520 148.5,531.5Q160,543 160,560L160,720Q160,720 160,720Q160,720 160,720L440,720Q457,720 468.5,731.5Q480,743 480,760Q480,777 468.5,788.5Q457,800 440,800L160,800ZM840,520Q823,520 811.5,508.5Q800,497 800,480L800,240Q800,240 800,240Q800,240 800,240L480,240Q463,240 451.5,228.5Q440,217 440,200Q440,183 451.5,171.5Q463,160 480,160L800,160Q833,160 856.5,183.5Q880,207 880,240L880,480Q880,497 868.5,508.5Q857,520 840,520ZM600,800Q583,800 571.5,788.5Q560,777 560,760L560,640Q560,623 571.5,611.5Q583,600 600,600L840,600Q857,600 868.5,611.5Q880,623 880,640L880,760Q880,777 868.5,788.5Q857,800 840,800L600,800Z&quot;/>"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_pip.xml"
+            line="9"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="VectorPath"
+        message="Very long vector path (800 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector."
+        errorLine1="        android:pathData=&quot;M10.23,1.75c-0.59,-0.59 -1.54,-0.59 -2.12,0L1.75,8.11c-0.59,0.59 -0.59,1.54 0,2.12l12.02,12.02c0.59,0.59 1.54,0.59 2.12,0l6.36,-6.36c0.59,-0.59 0.59,-1.54 0,-2.12L10.23,1.75zM14.12,20.48L3.52,9.88c-0.39,-0.39 -0.39,-1.02 0,-1.41l4.95,-4.95c0.39,-0.39 1.02,-0.39 1.41,0l10.61,10.61c0.39,0.39 0.39,1.02 0,1.41l-4.95,4.95c-0.39,0.38 -1.03,0.38 -1.42,-0.01zM17.61,1.4C16.04,0.57 14.06,-0.03 11.81,0.02c-0.18,0 -0.26,0.22 -0.14,0.35l3.48,3.48 1.33,-1.33c3.09,1.46 5.34,4.37 5.89,7.86 0.06,0.41 0.44,0.69 0.86,0.62 0.41,-0.06 0.69,-0.45 0.62,-0.86 -0.6,-3.8 -2.96,-7 -6.24,-8.74zM8.85,20.16l-1.33,1.33c-3.09,-1.46 -5.34,-4.37 -5.89,-7.86 -0.06,-0.41 -0.44,-0.69 -0.86,-0.62 -0.41,0.06 -0.69,0.45 -0.62,0.86 0.6,3.81 2.96,7.01 6.24,8.75 1.57,0.83 3.55,1.43 5.8,1.38 0.18,0 0.26,-0.22 0.14,-0.35l-3.48,-3.49z&quot; />"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/drawable/ic_screen_rotation.xml"
+            line="9"
+            column="27"/>
+    </issue>
+
+</issues>

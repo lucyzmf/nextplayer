@@ -28,16 +28,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
-    buildFeatures {
-        compose = true
-    }
+    kotlinOptions { jvmTarget = "11" }
+    buildFeatures { compose = true }
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -54,4 +49,9 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.testManifest)
+    testImplementation("io.mockk:mockk:1.12.0") // MockK dependency for mocking
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.0") // Kotlin test dependency
+    testImplementation(
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2",
+    ) // Coroutines test support
 }

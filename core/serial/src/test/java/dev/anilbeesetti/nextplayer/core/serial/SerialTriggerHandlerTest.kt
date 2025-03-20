@@ -7,16 +7,15 @@ import android.hardware.usb.UsbManager
 import com.hoho.android.usbserial.driver.UsbSerialDriver
 import com.hoho.android.usbserial.driver.UsbSerialPort
 import com.hoho.android.usbserial.driver.UsbSerialProber
-import io.mockk.coVerify
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkStatic
 import io.mockk.slot
 import io.mockk.verify
+import kotlin.test.assertEquals
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class SerialTriggerHandlerTest {
 
@@ -40,18 +39,18 @@ class SerialTriggerHandlerTest {
         usbSerialProber = mockk(relaxed = true)
 
         every { context.getSystemService(Context.USB_SERVICE) } returns usbManager
-        
+
         mockkStatic(UsbSerialProber::class)
         every { UsbSerialProber.getDefaultProber() } returns usbSerialProber
         every { usbSerialProber.findAllDrivers(usbManager) } returns listOf(usbSerialDriver)
-        
+
         every { usbSerialDriver.device } returns usbDevice
         every { usbSerialDriver.ports } returns listOf(usbSerialPort)
         every { usbManager.openDevice(usbDevice) } returns usbConnection
-        
+
         every { usbSerialPort.open(usbConnection) } returns Unit
         every { usbSerialPort.setParameters(any(), any(), any(), any()) } returns Unit
-        every { usbSerialPort.write(any(), any()) } returns 0
+        every { usbSerialPort.write(any(), any()) } returns Unit
         every { usbSerialPort.close() } returns Unit
 
         serialTriggerHandler = SerialTriggerHandler(context)
@@ -64,7 +63,9 @@ class SerialTriggerHandlerTest {
 
         // Then
         verify { usbSerialPort.open(usbConnection) }
-        verify { usbSerialPort.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE) }
+        verify {
+            usbSerialPort.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE)
+        }
     }
 
     @Test
@@ -96,11 +97,11 @@ class SerialTriggerHandlerTest {
         // Given
         val byteSlot = slot<ByteArray>()
         val timeoutSlot = slot<Int>()
-        every { usbSerialPort.write(capture(byteSlot), capture(timeoutSlot)) } returns 5
-        
+        every { usbSerialPort.write(capture(byteSlot), capture(timeoutSlot)) } returns Unit
+
         // Initialize connection first
         serialTriggerHandler.initializeConnection()
-        
+
         // When
         val testTrigger = "TEST"
         serialTriggerHandler.sendTrigger(testTrigger)
@@ -116,7 +117,7 @@ class SerialTriggerHandlerTest {
         // Given
         // Initialize connection first
         runTest { serialTriggerHandler.initializeConnection() }
-        
+
         // When
         serialTriggerHandler.closeConnection()
 
