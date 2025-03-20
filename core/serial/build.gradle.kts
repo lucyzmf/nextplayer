@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.lucy.serial"
+    namespace = "dev.anilbeesetti.nextplayer.core.serial"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "dev.lucy.serial"
+        applicationId = "dev.anilbeesetti.nextplayer.core.serial"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
