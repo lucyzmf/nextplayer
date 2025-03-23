@@ -9,6 +9,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import timber.log.Timber
+import dev.anilbeesetti.nextplayer.core.serial.SerialTriggerHandler
 
 @HiltAndroidApp
 class NextPlayerApplication : Application() {
@@ -19,6 +20,9 @@ class NextPlayerApplication : Application() {
     @Inject
     @ApplicationScope
     lateinit var applicationScope: CoroutineScope
+
+    @Inject
+    lateinit var triggerHandler: SerialTriggerHandler
 
     override fun onCreate() {
         super.onCreate()
