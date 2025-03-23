@@ -87,6 +87,8 @@ dependencies {
     implementation(project(":core:media"))
     implementation(project(":core:model"))
     implementation(project(":core:ui"))
+    implementation(project(":core:serial"))
+    implementation(project(":core"))
     implementation(project(":feature:videopicker"))
     implementation(project(":feature:player"))
     implementation(project(":feature:settings"))
