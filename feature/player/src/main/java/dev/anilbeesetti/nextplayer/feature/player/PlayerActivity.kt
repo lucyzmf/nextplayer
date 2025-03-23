@@ -71,6 +71,8 @@ import dev.anilbeesetti.nextplayer.core.model.ControlButtonsPosition
 import dev.anilbeesetti.nextplayer.core.model.ThemeConfig
 import dev.anilbeesetti.nextplayer.core.model.VideoZoom
 import dev.anilbeesetti.nextplayer.core.ui.R as coreUiR
+import dev.anilbeesetti.nextplayer.core.serial.SerialTriggerHandler
+import dev.anilbeesetti.nextplayer.core.serial.TriggerValue
 import dev.anilbeesetti.nextplayer.feature.player.databinding.ActivityPlayerBinding
 import dev.anilbeesetti.nextplayer.feature.player.dialogs.PlaybackSpeedControlsDialogFragment
 import dev.anilbeesetti.nextplayer.feature.player.dialogs.TrackSelectionDialogFragment
@@ -105,10 +107,14 @@ import kotlinx.coroutines.guava.await
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import timber.log.Timber
+import javax.inject.Inject
 
 @SuppressLint("UnsafeOptInUsageError")
 @AndroidEntryPoint
 class PlayerActivity : AppCompatActivity() {
+
+    @Inject
+    lateinit var triggerHandler: SerialTriggerHandler
 
     lateinit var binding: ActivityPlayerBinding
 
@@ -659,6 +665,7 @@ class PlayerActivity : AppCompatActivity() {
         isIntentNew = false
 
         lifecycleScope.launch {
+            triggerHandler.sendTrigger(TriggerValue.VIDEO_PLAY.value)
             playVideo(uri)
         }
     }

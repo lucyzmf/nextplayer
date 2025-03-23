@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import dev.anilbeesetti.nextplayer.core.serial.SerialTriggerHandler
+import kotlinx.coroutines.GlobalScope
 
 @HiltAndroidApp
 class NextPlayerApplication : Application() {
@@ -27,6 +28,12 @@ class NextPlayerApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        instance = this
+
+        GlobalScope.launch {
+            triggerHandler.initializeConnection()
+        }
+
         // Preloading updated preferences to ensure that the player uses the latest preferences set by the user.
         // This resolves the issue where player use default preferences upon launching the app from a cold start.
         // See [the corresponding issue for more info](https://github.com/anilbeesetti/nextplayer/issues/392)
@@ -38,5 +45,10 @@ class NextPlayerApplication : Application() {
         if (BuildConfig.DEBUG) {
             Timber.plant(Timber.DebugTree())
         }
+    }
+
+    companion object {
+        lateinit var instance: NextPlayerApplication
+            private set
     }
 }
