@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.hilt)
@@ -8,30 +8,34 @@ plugins {
 
 android {
     namespace = "dev.anilbeesetti.nextplayer.core.serial"
-    compileSdk = 35
+    compileSdk = libs.versions.android.compileSdk.get().toInt()
 
-    defaultConfig {
-        applicationId = "dev.anilbeesetti.nextplayer.core.serial"
-        minSdk = 24
-        targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+//    defaultConfig {
+//        minSdk = 24
+////        targetSdk = 35
+////        versionCode = 1
+////        versionName = "1.0"
+////
+////        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+//    }
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
-    }
+//    buildTypes {
+//        release {
+//            isMinifyEnabled = false
+//            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+//        }
+//    }
+//    compileOptions {
+//        sourceCompatibility = JavaVersion.VERSION_11
+//        targetCompatibility = JavaVersion.VERSION_11
+//    }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.toVersion(libs.versions.android.jvm.get().toInt())
+        targetCompatibility = JavaVersion.toVersion(libs.versions.android.jvm.get().toInt())
     }
-    kotlinOptions { jvmTarget = "11" }
-    buildFeatures { compose = true }
+    kotlinOptions {
+        jvmTarget = libs.versions.android.jvm.get()
+    }
 }
 
 dependencies {

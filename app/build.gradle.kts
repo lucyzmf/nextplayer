@@ -22,6 +22,14 @@ android {
         compose = true
         buildConfig = true
     }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_23
+        targetCompatibility = JavaVersion.VERSION_23
+    }
+
+    kotlinOptions {
+        jvmTarget = "23"
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.toVersion(libs.versions.android.jvm.get().toInt())

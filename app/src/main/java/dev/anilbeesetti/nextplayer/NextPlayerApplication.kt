@@ -9,7 +9,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import timber.log.Timber
-import dev.anilbeesetti.nextplayer.core.serial.SerialTriggerHandler
+//import dev.anilbeesetti.nextplayer.core.serial.SerialTriggerHandler
 import kotlinx.coroutines.GlobalScope
 
 @HiltAndroidApp
@@ -23,7 +23,7 @@ class NextPlayerApplication : Application() {
     lateinit var applicationScope: CoroutineScope
 
     @Inject
-    lateinit var triggerHandler: SerialTriggerHandler
+//    lateinit var triggerHandler: SerialTriggerHandler
 
     override fun onCreate() {
         super.onCreate()
@@ -31,7 +31,7 @@ class NextPlayerApplication : Application() {
         instance = this
 
         GlobalScope.launch {
-            triggerHandler.initializeConnection()
+//            triggerHandler.initializeConnection()
         }
 
         // Preloading updated preferences to ensure that the player uses the latest preferences set by the user.
