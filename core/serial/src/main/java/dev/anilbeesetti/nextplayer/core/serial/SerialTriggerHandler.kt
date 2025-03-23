@@ -6,10 +6,12 @@ import com.hoho.android.usbserial.driver.UsbSerialPort
 import com.hoho.android.usbserial.driver.UsbSerialProber
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import dev.anilbeesetti.nextplayer.core.serial.SerialPortConfig as SerialPortConfig
 
 class SerialTriggerHandler(private val context: Context) {
 
     private var usbPort: UsbSerialPort? = null
+    private var serialConfig: SerialPortConfig = SerialPortConfig.CONFIG_9600_8
 
     suspend fun initializeConnection() =
         withContext(Dispatchers.IO) {
@@ -28,11 +30,13 @@ class SerialTriggerHandler(private val context: Context) {
 
             usbPort = driver.ports[0]
             usbPort?.open(connection)
-            usbPort?.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE)
+            usbPort?.setParameters(serialConfig.baudRate, serialConfig.dataBits, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE)
         }
 
-    suspend fun sendTrigger(triggerValue: String) =
-        withContext(Dispatchers.IO) { usbPort?.write(triggerValue.toByteArray(), 1000) }
+    suspend fun sendTrigger(triggerValue: Int) =
+        withContext(Dispatchers.IO) {
+            usbPort?.write(byteArrayOf(triggerValue.toByte()), 1000)
+        }
 
     fun closeConnection() {
         usbPort?.close()
