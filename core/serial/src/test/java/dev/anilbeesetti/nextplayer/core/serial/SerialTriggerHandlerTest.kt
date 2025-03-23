@@ -103,12 +103,12 @@ class SerialTriggerHandlerTest {
         serialTriggerHandler.initializeConnection()
 
         // When
-        val testTrigger = "TEST"
+        val testTrigger = 89
         serialTriggerHandler.sendTrigger(testTrigger)
 
         // Then
         verify { usbSerialPort.write(any(), any()) }
-        assertEquals(testTrigger.toByteArray().toList(), byteSlot.captured.toList())
+        assertEquals(listOf(testTrigger.toByte()), byteSlot.captured.toList())
         assertEquals(1000, timeoutSlot.captured)
     }
 
