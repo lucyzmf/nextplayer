@@ -10,25 +10,10 @@ android {
     namespace = "dev.anilbeesetti.nextplayer.core.serial"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
-//    defaultConfig {
-//        minSdk = 24
-////        targetSdk = 35
-////        versionCode = 1
-////        versionName = "1.0"
-////
-////        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-//    }
+    defaultConfig {
+        minSdk = libs.versions.android.minSdk.get().toInt()
+    }
 
-//    buildTypes {
-//        release {
-//            isMinifyEnabled = false
-//            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-//        }
-//    }
-//    compileOptions {
-//        sourceCompatibility = JavaVersion.VERSION_11
-//        targetCompatibility = JavaVersion.VERSION_11
-//    }
     compileOptions {
         sourceCompatibility = JavaVersion.toVersion(libs.versions.android.jvm.get().toInt())
         targetCompatibility = JavaVersion.toVersion(libs.versions.android.jvm.get().toInt())
