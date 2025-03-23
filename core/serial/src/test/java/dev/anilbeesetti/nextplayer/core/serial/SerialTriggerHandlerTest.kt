@@ -50,7 +50,7 @@ class SerialTriggerHandlerTest {
 
         every { usbSerialPort.open(usbConnection) } returns Unit
         every { usbSerialPort.setParameters(any(), any(), any(), any()) } returns Unit
-        every { usbSerialPort.write(any(), any()) } returns Unit
+        every { usbSerialPort.write(any(), any()) } returns 1
         every { usbSerialPort.close() } returns Unit
 
         serialTriggerHandler = SerialTriggerHandler(context)
@@ -97,7 +97,7 @@ class SerialTriggerHandlerTest {
         // Given
         val byteSlot = slot<ByteArray>()
         val timeoutSlot = slot<Int>()
-        every { usbSerialPort.write(capture(byteSlot), capture(timeoutSlot)) } returns Unit
+        every { usbSerialPort.write(capture(byteSlot), capture(timeoutSlot)) } returns 1
 
         // Initialize connection first
         serialTriggerHandler.initializeConnection()
