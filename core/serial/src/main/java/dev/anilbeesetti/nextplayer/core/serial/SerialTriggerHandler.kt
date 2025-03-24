@@ -2,6 +2,7 @@ package dev.anilbeesetti.nextplayer.core.serial
 
 import android.content.Context
 import android.hardware.usb.UsbManager
+import android.util.Log
 import com.hoho.android.usbserial.driver.UsbSerialPort
 import com.hoho.android.usbserial.driver.UsbSerialProber
 import kotlinx.coroutines.Dispatchers
@@ -35,6 +36,7 @@ class SerialTriggerHandler(private val context: Context) {
 
     suspend fun sendTrigger(triggerValue: Int) =
         withContext(Dispatchers.IO) {
+            Log.d("SerialTriggerHandler", "Sending trigger value: $triggerValue")
             usbPort?.write(byteArrayOf(triggerValue.toByte()), 1000)
         }
 
